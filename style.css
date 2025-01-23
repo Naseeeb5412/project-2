@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    
+}
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-brand{
+    font-family: "Raleway", serif;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: "Raleway", serif;
+    border: 2px solid rgb(221, 155, 15);
+}
+
+.main{
+    background: url(./img/Banner.jpeg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position:50%;
+    width: 100%;
+
+}
+.main h1{
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    
+}
+.btn02{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(11, 87, 11);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+.btn02:hover{
+    color: rgb(11, 87, 11) ;
+    background-color: white;
+    transform: 0.5s;
+
+}
+
+.img-luid{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    font-weight: 700px;
+}
+.card:hover{
+    -webkit-box-shadow: 24px -12px 38px 2px rgba(0,0,0,0.81);
+-moz-box-shadow: 24px -12px 38px 2px rgba(0,0,0,0.81);
+box-shadow: 24px -12px 38px 2px rgba(0,0,0,0.81);
+transition: 1s;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.ain{
+    background: url(https://files.porsche.com/filestore/image/middle-east/none/homepage-banner-india-new-panamera/normal/1e6bccd6-183c-11ef-812b-005056bbdc38/porsche-normal.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position:50%;
+    width: 100%;
+
+}
+.text-reset{
+    text-decoration: none;
+}
